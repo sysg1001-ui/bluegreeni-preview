@@ -20,15 +20,15 @@ header{border-bottom:1px solid var(--line);background:var(--paper)}
 .header nav a:hover,.under:hover{color:#426f5d}
 .phone{justify-self:end}.outlined,.primary{min-height:45px;display:inline-flex;align-items:center;justify-content:center;padding:0 19px;border:1px solid var(--green);border-radius:4px;font-weight:600;white-space:nowrap}
 .outlined:hover{background:#e9ede1}.primary{color:white;background:var(--green);min-height:49px}.primary:hover{background:#285346}
-.hero{display:grid;grid-template-columns:minmax(0,45%) minmax(0,55%);border-bottom:1px solid var(--line);min-height:clamp(450px,43vw,620px)}
-.hero-copy{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:52px 30px 56px max(52px,calc((100vw - 1280px)/2))}
+.hero{display:grid;grid-template-columns:minmax(0,45%) minmax(0,55%);border-bottom:1px solid var(--line);min-height:clamp(415px,42vw,565px)}
+.hero-copy{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:46px 24px 48px 0}
 .kicker{margin:0 0 19px;color:var(--muted);font-size:13px;letter-spacing:.09em;font-weight:600}
 h1,h2,h3,p,figure{margin:0} h1,h2,h3{font-family:var(--serif)}
-h1{font-size:clamp(52px,5.4vw,84px);line-height:1.07;letter-spacing:-.075em;word-break:keep-all;font-weight:700}
+h1{font-size:clamp(40px,5.15vw,74px);line-height:1.1;letter-spacing:-.075em;word-break:keep-all;font-weight:700}
 .hero-copy>p:not(.kicker){margin-top:24px;line-height:1.7;color:var(--muted);font-size:clamp(14px,1.3vw,18px);word-break:keep-all}
 .actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-top:29px}
 .under{border-bottom:1px solid currentColor;padding-block:5px;font-weight:600}
-.hero figure{position:relative;min-height:100%;background:#ded8cf;overflow:hidden}
+.hero figure{position:relative;background:#ded8cf;overflow:hidden}
 .hero img{height:100%;position:absolute;inset:0;object-position:center 46%}
 .hero figcaption{position:absolute;right:17px;bottom:17px;background:var(--paper);padding:8px 12px;border-radius:3px;font-size:12px}
 .browse,.collection{padding-block:45px 0}
@@ -69,10 +69,11 @@ html:has(dialog[open]){overflow:hidden}.detail-grid{display:grid;grid-template-c
 .detail-copy .detail-notice{color:var(--muted);font-size:13px}
 .detail-copy .primary{margin-top:19px}
 .close{position:absolute;z-index:1;top:9px;right:9px;border:1px solid var(--line);border-radius:50%;background:var(--paper);width:40px;height:40px;font-size:20px}
-@media(max-width:900px){.wrap{width:calc(100% - 54px)}.hero-copy{padding-left:27px}.hero{min-height:440px}}
+@media(max-width:900px){.wrap{width:calc(100% - 54px)}}
+@media(max-width:760px){.hero{grid-template-columns:1fr;min-height:0}.hero-copy{padding:38px 0 32px}.hero figure{aspect-ratio:1.5}}
 @media(max-width:660px){
 .wrap{width:calc(100% - 36px)}.header{grid-template-columns:1fr auto;gap:0 10px;padding-block:12px 0}.header nav{grid-column:1/-1;grid-row:2;justify-content:center;gap:28px;padding:12px 0;margin-top:10px;border-top:1px solid var(--line);font-size:13px}.phone{min-height:37px;padding-inline:12px;font-size:12px}
-.hero{display:flex;flex-direction:column;min-height:0}.hero-copy{padding:32px 18px 29px}.hero-copy>p:not(.kicker){margin-top:17px}.kicker{margin-bottom:10px;font-size:12px}.actions{margin-top:19px;gap:16px}.hero h1{font-size:clamp(46px,11vw,64px)}.hero figure{min-height:0;aspect-ratio:1.31}
+.hero.wrap{width:100%}.hero-copy{padding:32px 18px 29px}.hero-copy>p:not(.kicker){margin-top:17px}.kicker{margin-bottom:10px;font-size:12px}.actions{margin-top:19px;gap:16px}.hero h1{font-size:clamp(40px,11vw,64px)}.hero figure{aspect-ratio:1.31}
 .browse{padding-top:31px}.categories{gap:8px;margin-top:14px}.category img{aspect-ratio:1}.category-label{font-size:clamp(15px,4.55vw,23px)}
 .collection{padding-block:44px}.section-head{margin-bottom:16px}.products{grid-template-columns:repeat(2,minmax(0,1fr));gap:17px 10px}.product img{aspect-ratio:1}
 .visit{padding-block:34px}.visit-grid{grid-template-columns:1fr;gap:23px}.visit img{aspect-ratio:1.65}.detail-grid{grid-template-columns:1fr}.detail-grid img{aspect-ratio:auto;max-height:40vh}.detail-copy{padding:23px 21px}.detail-copy .primary{margin-top:13px}
@@ -87,7 +88,7 @@ html:has(dialog[open]){overflow:hidden}.detail-grid{display:grid;grid-template-c
   <a class="phone outlined" href="tel:05074634227">전화 문의</a>
 </div></header>
 <main>
-<section class="hero" aria-labelledby="hero-title">
+<section class="wrap hero" aria-labelledby="hero-title">
   <div class="hero-copy">
     <p class="kicker">경기 광주 쌍령동 꽃집</p>
     <h1 id="hero-title">마음을 전하는<br>오늘의 꽃</h1>
