@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="경기 광주 쌍령동 꽃집 블루그리니의 꽃다발과 꽃바구니.">
+<meta name="theme-color" content="#f8f6ef">
+<title>블루그리니 | 마음을 전하는 오늘의 꽃</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap');
+:root{--paper:#f8f6ef;--green:#173c33;--muted:#51645a;--line:#d6dbce;--serif:"Gowun Batang","Batang",serif;color:var(--green);background:var(--paper);font-family:"Noto Sans KR","Malgun Gothic",sans-serif;font-size:15px}
+*{box-sizing:border-box} body{margin:0} a{color:inherit;text-decoration:none} img{display:block;width:100%;object-fit:cover} button{font:inherit;color:inherit;cursor:pointer} [hidden]{display:none!important}
+:focus-visible{outline:2px solid #426f5d;outline-offset:4px} html{scroll-behavior:smooth} section[id]{scroll-margin-top:90px}
+.wrap{width:min(1280px,calc(100% - 104px));margin-inline:auto}
+header{border-bottom:1px solid var(--line);background:var(--paper)}
+.header{min-height:77px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:28px}
+.brand{font:600 clamp(31px,4vw,43px)/1 Georgia,serif;letter-spacing:-.075em;width:max-content}
+.brand span{color:#577867}.header nav{display:flex;gap:clamp(20px,4vw,49px);font-size:14px;font-weight:500}
+.header nav a:hover,.under:hover{color:#426f5d}
+.phone{justify-self:end}.outlined,.primary{min-height:45px;display:inline-flex;align-items:center;justify-content:center;padding:0 19px;border:1px solid var(--green);border-radius:4px;font-weight:600;white-space:nowrap}
+.outlined:hover{background:#e9ede1}.primary{color:white;background:var(--green);min-height:49px}.primary:hover{background:#285346}
+.hero{display:grid;grid-template-columns:minmax(0,45%) minmax(0,55%);border-bottom:1px solid var(--line);min-height:clamp(450px,43vw,620px)}
+.hero-copy{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:52px 30px 56px max(52px,calc((100vw - 1280px)/2))}
+.kicker{margin:0 0 19px;color:var(--muted);font-size:13px;letter-spacing:.09em;font-weight:600}
+h1,h2,h3,p,figure{margin:0} h1,h2,h3{font-family:var(--serif)}
+h1{font-size:clamp(52px,5.4vw,84px);line-height:1.07;letter-spacing:-.075em;word-break:keep-all;font-weight:700}
+.hero-copy>p:not(.kicker){margin-top:24px;line-height:1.7;color:var(--muted);font-size:clamp(14px,1.3vw,18px);word-break:keep-all}
+.actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-top:29px}
+.under{border-bottom:1px solid currentColor;padding-block:5px;font-weight:600}
+.hero figure{position:relative;min-height:100%;background:#ded8cf;overflow:hidden}
+.hero img{height:100%;position:absolute;inset:0;object-position:center 46%}
+.hero figcaption{position:absolute;right:17px;bottom:17px;background:var(--paper);padding:8px 12px;border-radius:3px;font-size:12px}
+.browse,.collection{padding-block:45px 0}
+h2{font-size:clamp(29px,3.5vw,45px);line-height:1.15;letter-spacing:-.06em;word-break:keep-all}
+.categories{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:21px}
+.category{display:block;border-bottom:1px solid var(--line);padding-bottom:11px}
+.category-image,.product-image{overflow:hidden;background:#e8e6db}
+.category img{aspect-ratio:1.72;object-position:center 42%}
+.category:nth-child(3) img{object-position:center 42%}
+.category-label{display:flex;align-items:center;justify-content:space-between;padding-top:10px;font:700 23px/1.2 var(--serif)}
+.category img,.product img{transition:transform .32s ease}.category:hover img,.product:hover img{transform:scale(1.045)}
+.collection{padding-block:66px 73px}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:24px}
+.filters{display:flex;gap:7px;flex-wrap:wrap}
+.filter{background:none;border:1px solid var(--line);border-radius:30px;padding:7px 13px;min-height:40px;font-size:13px}
+.filter[aria-pressed=true]{background:var(--green);border-color:var(--green);color:white}
+.products{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px 16px}
+.product{display:block;border-bottom:1px solid var(--line);padding-bottom:15px}
+.product img{aspect-ratio:1.17;object-position:center 45%}
+.product .tag{font-size:12px;color:var(--muted);display:block;margin-top:11px}
+.product h3{font-size:clamp(17px,2vw,23px);line-height:1.24;margin-top:5px;word-break:keep-all}
+.product-price{display:block;margin-top:7px;font-weight:600;font-size:14px}
+.visit{background:#e9eee3;padding-block:57px;border-block:1px solid var(--line)}
+.visit-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:48px}
+.visit img{aspect-ratio:1.47}
+.visit address{font-style:normal;line-height:1.8;margin-top:16px;word-break:keep-all}
+.visit dl{display:grid;grid-template-columns:max-content 1fr;gap:6px 14px;margin:16px 0 0;color:var(--muted);font-size:14px}.visit dt{font-weight:600}.visit dd{margin:0}
+footer{padding-block:24px 26px}.footer{display:flex;justify-content:space-between;align-items:center;gap:10px 20px;flex-wrap:wrap}
+footer .brand{font-size:31px} footer p{color:var(--muted);font-size:12px}
+dialog{color:var(--green);background:var(--paper);border:1px solid var(--line);border-radius:5px;width:min(840px,calc(100% - 22px));max-height:calc(100% - 22px);padding:0;margin:auto}
+dialog::backdrop{background:#10271f9c}
+html:has(dialog[open]){overflow:hidden}.detail-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center}
+.detail-grid img{aspect-ratio:1;object-fit:contain;background:#e9e8e0}
+.detail-copy{padding:42px 30px 33px}
+.detail-copy h2{font-size:clamp(25px,4vw,38px)}
+.detail-copy .kicker{margin-bottom:10px}
+.detail-copy p:not(.kicker){margin-top:12px;line-height:1.6}
+.detail-copy .detail-notice{color:var(--muted);font-size:13px}
+.detail-copy .primary{margin-top:19px}
+.close{position:absolute;z-index:1;top:9px;right:9px;border:1px solid var(--line);border-radius:50%;background:var(--paper);width:40px;height:40px;font-size:20px}
+@media(max-width:900px){.wrap{width:calc(100% - 54px)}.hero-copy{padding-left:27px}.hero{min-height:440px}}
+@media(max-width:660px){
+.wrap{width:calc(100% - 36px)}.header{grid-template-columns:1fr auto;gap:0 10px;padding-block:12px 0}.header nav{grid-column:1/-1;grid-row:2;justify-content:center;gap:28px;padding:12px 0;margin-top:10px;border-top:1px solid var(--line);font-size:13px}.phone{min-height:37px;padding-inline:12px;font-size:12px}
+.hero{display:flex;flex-direction:column;min-height:0}.hero-copy{padding:32px 18px 29px}.hero-copy>p:not(.kicker){margin-top:17px}.kicker{margin-bottom:10px;font-size:12px}.actions{margin-top:19px;gap:16px}.hero h1{font-size:clamp(46px,11vw,64px)}.hero figure{min-height:0;aspect-ratio:1.31}
+.browse{padding-top:31px}.categories{gap:8px;margin-top:14px}.category img{aspect-ratio:1}.category-label{font-size:clamp(15px,4.55vw,23px)}
+.collection{padding-block:44px}.section-head{margin-bottom:16px}.products{grid-template-columns:repeat(2,minmax(0,1fr));gap:17px 10px}.product img{aspect-ratio:1}
+.visit{padding-block:34px}.visit-grid{grid-template-columns:1fr;gap:23px}.visit img{aspect-ratio:1.65}.detail-grid{grid-template-columns:1fr}.detail-grid img{aspect-ratio:auto;max-height:40vh}.detail-copy{padding:23px 21px}.detail-copy .primary{margin-top:13px}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body id="top">
+<header><div class="wrap header">
+  <a class="brand" href="#top" aria-label="블루그리니 홈">bluegreeni<span>.</span></a>
+  <nav aria-label="주 메뉴"><a href="#collection" data-show="bouquet">꽃다발</a><a href="#collection" data-show="basket">꽃바구니</a><a href="#visit">매장 안내</a></nav>
+  <a class="phone outlined" href="tel:05074634227">전화 문의</a>
+</div></header>
+<main>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="kicker">경기 광주 쌍령동 꽃집</p>
+    <h1 id="hero-title">마음을 전하는<br>오늘의 꽃</h1>
+    <p>기억하고 싶은 순간에, 계절의 꽃을 전해요.</p>
+    <div class="actions"><a class="primary" href="#collection" data-show="bouquet">꽃다발 보기&nbsp; ↗</a><a class="under" href="#visit">매장 위치</a></div>
+  </div>
+  <figure>
+    <img src="https://images.myflowershop.co.kr/data/goods/pmVNgxhr1lryeEvDG5MHt8SyA4GbuY.jpg" alt="블루그리니 시그니처 꽃다발" fetchpriority="high">
+    <figcaption>블루그리니 시그니처 꽃다발</figcaption>
+  </figure>
+</section>
+<section class="wrap browse" aria-labelledby="browse-title">
+  <h2 id="browse-title">어떤 꽃을 찾으세요?</h2>
+  <div class="categories">
+    <a class="category" href="#collection" data-show="bouquet"><div class="category-image"><img src="https://images.myflowershop.co.kr/data/goods/1792995871/_5fb767e5.png" alt="" loading="lazy"></div><span class="category-label">꽃다발 <span aria-hidden="true">↗</span></span></a>
+    <a class="category" href="#collection" data-show="basket"><div class="category-image"><img src="https://images.myflowershop.co.kr/data/goods/6TxCWyM4vGh8PMAsgJU7whUrBe5ELw.jpg" alt="" loading="lazy"></div><span class="category-label">꽃바구니 <span aria-hidden="true">↗</span></span></a>
+    <a class="category" href="#collection" data-show="orchid"><div class="category-image"><img src="https://images.myflowershop.co.kr/data/goods/1793418660/_7877a6c3.png" alt="" loading="lazy"></div><span class="category-label">서양란 <span aria-hidden="true">↗</span></span></a>
+  </div>
+</section>
+<section id="collection" class="wrap collection" aria-labelledby="collection-title">
+  <div class="section-head"><h2 id="collection-title">블루그리니의 꽃</h2><div class="filters" role="group" aria-label="상품 종류">
+    <button class="filter" type="button" data-show="all" aria-pressed="true">전체</button>
+    <button class="filter" type="button" data-show="bouquet" aria-pressed="false">꽃다발</button>
+    <button class="filter" type="button" data-show="basket" aria-pressed="false">꽃바구니</button>
+    <button class="filter" type="button" data-show="orchid" aria-pressed="false">서양란</button>
+  </div></div>
+  <div class="products">
+    <a class="product" data-category="bouquet" data-description="화사한 색감이 돋보이는 블루그리니의 시그니처 디자인이에요." href="https://bluegreeni.kr/shop/view4.php?index_no=74980"><div class="product-image"><img src="https://images.myflowershop.co.kr/data/goods/pmVNgxhr1lryeEvDG5MHt8SyA4GbuY.jpg" alt="" loading="lazy"></div><span class="tag">꽃다발</span><h3>블루그리니 시그니처 꽃다발</h3><span class="product-price">60,000원</span></a>
+    <a class="product" data-category="bouquet" data-description="구름을 닮은 몽글몽글한 꽃을 푸른빛으로 담았어요." href="https://bluegreeni.kr/shop/view4.php?index_no=82165"><div class="product-image"><img src="https://images.myflowershop.co.kr/data/goods/1792995871/_5fb767e5.png" alt="" loading="lazy"></div><span class="tag">꽃다발</span><h3>블루그리니 블루 꽃다발</h3><span class="product-price">50,000원</span></a>
+    <a class="product" data-category="basket" data-description="라넌큘러스와 분홍 수국을 담은 꽃바구니예요." href="https://bluegreeni.kr/shop/view4.php?index_no=74979"><div class="product-image"><img src="https://images.myflowershop.co.kr/data/goods/6TxCWyM4vGh8PMAsgJU7whUrBe5ELw.jpg" alt="" loading="lazy"></div><span class="tag">꽃바구니</span><h3>사랑 담은 스페셜 꽃바구니</h3><span class="product-price">100,000원</span></a>
+    <a class="product" data-category="bouquet" data-description="계절에 맞는 꽃을 골라 풍성하게 만드는 꽃다발이에요." href="https://bluegreeni.kr/shop/view4.php?index_no=82041"><div class="product-image"><img src="https://images.myflowershop.co.kr/data/goods/1792743749/_5d7d31dc.png" alt="" loading="lazy"></div><span class="tag">꽃다발</span><h3>고급꽃 꽃다발</h3><span class="product-price">80,000원</span></a>
+    <a class="product" data-category="basket" data-description="부모님의 환갑과 칠순처럼 특별한 날에 어울리는 꽃바구니예요." href="https://bluegreeni.kr/shop/view4.php?index_no=57853"><div class="product-image"><img src="https://images.myflowershop.co.kr/data/goods/s9CGdU72lCMGN8fCrw44bS8MMY3RhC.jpg" alt="" loading="lazy"></div><span class="tag">꽃바구니</span><h3>환갑·칠순 기념 꽃바구니</h3><span class="product-price">70,000원</span></a>
+    <a class="product" data-category="orchid" data-description="행복이 깃든다는 의미를 담은 호접난이에요." href="https://bluegreeni.kr/shop/view4.php?index_no=82223"><div class="product-image"><img src="https://images.myflowershop.co.kr/data/goods/1793418660/_7877a6c3.png" alt="" loading="lazy"></div><span class="tag">서양란</span><h3>행복이 깃드는 호접난</h3><span class="product-price">80,000원</span></a>
+  </div>
+</section>
+<section id="visit" class="visit" aria-labelledby="visit-title"><div class="wrap visit-grid">
+  <img src="https://images.myflowershop.co.kr/data/banner/hQdePfNEQb8pcgBGJC1e9T9vbCgXVu.jpg" alt="블루그리니 매장 사진" loading="lazy">
+  <div>
+    <h2 id="visit-title">쌍령동에서 만나요</h2>
+    <address>경기 광주시 경충대로1422번길 12-1<br>1층 105호 블루그리니꽃집</address>
+    <dl><dt>평일</dt><dd>10:00–20:00</dd><dt>토요일</dt><dd>09:00–19:00</dd><dt>일요일</dt><dd>10:00–18:00 예약제</dd></dl>
+    <div class="actions">
+      <a class="primary" href="https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%20%EA%B4%91%EC%A3%BC%20%EB%B8%94%EB%A3%A8%EA%B7%B8%EB%A6%AC%EB%8B%88">지도에서 보기&nbsp; ↗</a>
+      <a class="under" href="tel:05074634227">050-7463-4227</a>
+    </div>
+  </div>
+</div></section>
+</main>
+<footer><div class="wrap footer"><a class="brand" href="#top" aria-label="블루그리니 홈">bluegreeni<span>.</span></a><p>블루그리니 개편 시안 · <a class="under" href="https://bluegreeni.kr/">공식 쇼핑몰</a></p></div></footer>
+<dialog aria-labelledby="detail-title">
+  <form method="dialog"><button class="close" aria-label="상품 상세 닫기" autofocus>×</button></form>
+  <div class="detail-grid">
+    <img class="detail-photo" alt="">
+    <div class="detail-copy">
+      <p class="kicker detail-tag"></p><h2 id="detail-title"></h2>
+      <p class="detail-price"></p><p class="detail-description"></p>
+      <p class="detail-notice">최신 가격과 배송·픽업 가능 일정은 공식 쇼핑몰에서 확인해 주세요.</p>
+      <a class="primary detail-link" href="https://bluegreeni.kr/">공식 상품 페이지&nbsp; ↗</a>
+    </div>
+  </div>
+</dialog>
+<script>
+const filters = [...document.querySelectorAll('.filter')];
+const products = [...document.querySelectorAll('.product')];
+const dialog = document.querySelector('dialog');
+const photo = dialog.querySelector('.detail-photo');
+const fields = {
+  tag: dialog.querySelector('.detail-tag'),
+  title: dialog.querySelector('#detail-title'),
+  price: dialog.querySelector('.detail-price'),
+  description: dialog.querySelector('.detail-description'),
+  link: dialog.querySelector('.detail-link')
+};
+let activeProduct;
+
+for (const control of document.querySelectorAll('[data-show]')) {
+  control.addEventListener('click', () => {
+    const type = control.dataset.show;
+    for (const filter of filters) {
+      filter.setAttribute('aria-pressed', String(filter.dataset.show === type));
+    }
+    for (const product of products) {
+      product.hidden = type !== 'all' && product.dataset.category !== type;
+    }
+  });
+}
+
+for (const product of products) {
+  product.addEventListener('click', (event) => {
+    if (!dialog.showModal || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    activeProduct = product;
+    fields.title.textContent = product.querySelector('h3').textContent;
+    fields.tag.textContent = product.querySelector('.tag').textContent;
+    fields.price.textContent = product.querySelector('.product-price').textContent;
+    fields.description.textContent = product.dataset.description;
+    fields.link.href = product.href;
+    photo.src = product.querySelector('img').src;
+    photo.alt = fields.title.textContent;
+    dialog.showModal();
+  });
+}
+dialog.addEventListener('close', () => activeProduct?.focus());
+dialog.addEventListener('click', (event) => {
+  if (event.target === dialog) dialog.close();
+});
+</script>
+</body>
+</html>
